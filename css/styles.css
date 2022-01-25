@@ -1,0 +1,35 @@
+/* color palette 
+
+#d62828-maximum red
+#003049-prussian blue //background
+f77f00-orange
+fcbf49-maximum yellow;
+eae2b7-lemon meringue; //accent
+
+*/
+
+
+
+body{
+    margin:0;
+    padding:0;
+    font-family:'Josefin Sans', sans-serif;
+    background-color:#003049;
+    color:#eae2b7;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+}
+
+
+
+.genre-column{
+    
+/* to make the cards stack as a column do display:flex; */
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+
+}
